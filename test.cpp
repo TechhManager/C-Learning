@@ -1,14 +1,14 @@
-#include <iostream>  
+#include <iostream>
 
-int main (){
+int main(){
 
-    std::cout << "Enter a number";
-    int x {};
-    int y {};
-    int z {};
+    int x{};
 
-    std:: cin >> x >>y >>z;
-    std:: cout << "You entered " << x << " , " << y << " and " << z << ". \n";
+    std::cout << "Enter a Integer: ";
+
+    std::cin >> x;
+
+    std::cout << "Double the integer is : " << x * 2 '\n' ; 
+
     return 0;
 }
-
